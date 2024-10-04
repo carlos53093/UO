@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .animation-reverse {
+        animation-direction: reverse;
+    }
+}
+
+body {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+}
